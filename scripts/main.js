@@ -202,7 +202,7 @@ if(localStorage.getItem('golden') == "dorado"){
             $('#bheaderE').text('Education');
             $('#bheaderC').text('Contact');
             $('#titulo').text('A bit about me');
-            $('#p2').text("Hi, my name is David Pino, I am a passionated tech guy, specifically in computing technology , I'm a front-end web developer, I consider myself a really ambicious person who usually has a lot of objectives in life, this is why I'm in a constantly seek of knowledge and learning. If you find yourself interested in working with me, you may contact me.");
+            $('#p2').text("My name is David Pino, I am a passionated tech guy, specifically in computing technology , I'm a front-end web developer, I'm seeking for new projects to be part of, those where I can apply my knowledge as programmer and to adquire some good experience. If you find yourself interested in working with me, you may contact me.");
             $('#p').text("I'm 25 years old, I was born on Deptember 21th, 1994 in Caracas, Venezuela, and today I live in Buenos Aires, Argentina, I am currently working on my associate's degree (Systems analysis), although I also dedicate much of my free time to learn and study independently");
             $('#boton').text('Show more information...');
             $('#headerEx').text('PORTFOLIO');
