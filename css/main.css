@@ -253,6 +253,7 @@ body{
 }
 /*------------------ SECCION EXPERIENCIA ------------*/
 #headerEx{
+    font-size: 22px;
     background:  rgb(61, 60, 60);
     color: rgb(245, 241, 241);
     line-height: 46px;
@@ -266,11 +267,13 @@ body{
     font-family: Lucida Sans Unicode;  
 }
 #prep{
+    font-family: Lucida Sans Unicode;
     text-align: center;
     padding: 100px;
 }
 /*---------------- SECCION CONOCIMIENTOS -----------*/
 #headerCo{
+    font-size: 22px;
     background:  rgb(61, 60, 60);
     color: rgb(245, 241, 241);
     line-height: 46px;
@@ -310,8 +313,16 @@ body{
     color: black;
     font-family: Lucida Sans Unicode;
 }
+#tech{
+    font-family: Lucida Sans Unicode;
+}    
+
+#otech{
+    font-family: Lucida Sans Unicode;
+}    
 /*------------------ SECCION EDUCACION----------------*/
 #headerE{
+    font-size: 22px;
     background:  rgb(61, 60, 60);
     color: rgb(245, 241, 241);
     line-height: 46px;
@@ -365,6 +376,7 @@ span{
 }
 /*---------------- SECCION CONTACTO -----------*/
 #headerC{
+    font-size: 22px;
     background:  rgb(61, 60, 60);
     color: rgb(245, 241, 241);
     line-height: 46px;
