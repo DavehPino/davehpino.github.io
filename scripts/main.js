@@ -45,17 +45,17 @@ boton.click(function(){
             
         }   
     }
-    else if(boton.text() == "Mostrar más informacion..." || boton.text() == "Ocultar informacion..."){
+    else if(boton.text() == "Mostrar más información..." || boton.text() == "Ocultar información..."){
             p.toggle('scale', 500);
         if(boton.html().length > 24){
-            boton.html("Ocultar informacion...");
+            boton.html("Ocultar información...");
             animador.animate({
                 scrollTop: titulo.offset().top
             }, 1); 
 
         }
         else if(boton.html().length < 24){
-            boton.html("Mostrar más informacion...");
+            boton.html("Mostrar más información...");
             animador.delay(200).animate({
                 scrollTop: titulo.offset().top
             }, 400); 
