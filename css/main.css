@@ -13,17 +13,21 @@ body{
     background-color: #ccc;
     margin: 0;
     display: grid;
-    justify-items: right;
+    justify-items: center;
     background-color: rgb(61, 60, 60);
     color: rgb(245, 241, 241);
     font-family: 'Lucida Sans Unicode';
     box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
    
 }
+#Bcontenedor{
+    width: 75%;
+    text-align: right;
+}
 #Bsuperior ul{
     line-height: 10px;
     list-style: none;
-    margin-right: 100px;
+    
 }
 #Bsuperior ul li{
     height: 10px;
