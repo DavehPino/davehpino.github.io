@@ -23,11 +23,12 @@ body{
 #Bcontenedor{
     width: 75%;
     text-align: right;
+    
 }
 #Bsuperior ul{
     line-height: 10px;
     list-style: none;
-    
+    padding-right: 0px;
 }
 #Bsuperior ul li{
     height: 10px;
