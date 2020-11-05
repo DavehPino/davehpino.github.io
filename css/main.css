@@ -1,0 +1,512 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#main{
+    width: 100%;
+    max-width: 1500px;
+}
+body{
+    margin-top: 0;
+}
+#Bsuperior{
+    background-color: #ccc;
+    margin: 0;
+    display: grid;
+    justify-items: right;
+    background-color: rgb(61, 60, 60);
+    color: rgb(245, 241, 241);
+    font-family: 'Lucida Sans Unicode';
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+   
+}
+#Bsuperior ul{
+    line-height: 10px;
+    list-style: none;
+    margin-right: 100px;
+}
+#Bsuperior ul li{
+    height: 10px;
+    padding: 15px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    display: inline-block;    
+}
+#cambiador{
+    position: fixed;
+    width: 60px;
+    margin-top: 200px;
+  
+}
+.botonesT{
+    display: block;
+    width: 45px;
+    height: 50px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Lucida Sans Unicode';
+    transition: 200ms;
+    opacity: 0.6;
+    color: darkgrey;
+    cursor: pointer;
+    outline: none;
+}
+
+.botonesT:hover{
+    height: 55px;
+    width: 50px;
+    opacity: 0.8;
+    color: black;
+}
+
+#R{
+    background: rgba(206, 31, 31, 1);
+}
+#B{
+    background: rgba(4, 67, 240, 1);
+}
+#G{
+    background: rgba(255, 215, 0, 1);
+}
+
+#Up{
+    display: block;
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Lucida Sans Unicode';
+    transition: 100ms;
+    opacity: 0.8;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    background-color: black;
+    font-size: 30px;
+}
+#language{
+    display: block;
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Lucida Sans Unicode';
+    transition: 100ms;
+    opacity: 1;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(to bottom right, #001F7E 25px,#ffffff, #D00C27 60px);
+    font-size: 15px;
+}
+#language:hover{
+    height: 60px;
+    width: 60px;
+    opacity: 1;
+    
+}
+
+#Up:hover{
+    height: 60px;
+    width: 60px;
+    opacity: 1;
+    
+}
+/*------------- SECCION HEADER --------*/
+#GLOBAL{
+    width: 75%;
+    margin: 0px auto;
+    margin-top: 0px;
+    padding: 20px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,1);
+    box-sizing: border-box;
+}
+#cont-cv{
+    width: 100%;
+
+}
+
+#cv{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+    width: 400px;
+    height: 60px;
+    line-height: 58px;
+    margin-bottom: 15px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.8);
+    box-sizing: border-box;
+    display: inline-block;
+}
+#descarga{
+    font-family: Lucida Sans Unicode;
+    display: inline-block; 
+    width: 40%; 
+    text-align: center;
+    margin-left: 100px;
+    font-weight: bold;
+    transition: all 300ms;
+}
+#download{
+    font-size: 20px;
+}
+#download-icon{
+    font-size: 45px;
+}
+#menuicon{
+    display: none;
+    place-items: center;
+    height: 50px;
+    margin-bottom: 10px;
+
+}
+#icon-menu{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    align-self: center;
+    cursor: pointer;  
+
+}
+.align{
+    display: grid;
+    justify-items: center;
+}
+#menu{
+    font-family: 'Lucida Sans Unicode';
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+    text-transform: uppercase;
+    background:  rgb(61, 60, 60);
+    color: rgb(245, 241, 241);
+    transition: all 300ms;
+}
+
+#menu ul{
+    line-height: 46px;
+    list-style: none;   
+    transition: all 300ms; 
+}
+
+#menu ul li{
+    height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+    text-align: center;
+    font-weight: bold;
+    width: 150px;
+}
+
+
+#menu a{
+    display: block;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/*--------------- SECCION SOBRE MI ------------*/
+#sliderbox{
+    width: 100%;
+    height: 350px;
+    justify-items: center;
+    display: grid;
+    margin-top: 40px;
+}
+
+#boxART{
+    width: 100%;
+    place-items: center;
+    font-family: Lucida Sans Unicode;
+    text-align: center;
+ }
+
+.posts{
+    padding: 8px;
+    
+}
+
+.posts p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 22px;
+    text-align: justify;
+    padding: 10px
+}
+#p {
+    display: none;
+}
+#boton{
+    padding: 5px;
+    border: 1px solid rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+    cursor: pointer;
+    display: inline;
+    outline: none;
+    font-weight: bold;
+}
+/*------------------ SECCION EXPERIENCIA ------------*/
+#headerEx{
+    background:  rgb(61, 60, 60);
+    color: rgb(245, 241, 241);
+    line-height: 46px;
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+    height: 46px;
+    font-family: Lucida Sans Unicode;  
+}
+#prep{
+    text-align: center;
+    padding: 100px;
+}
+/*---------------- SECCION CONOCIMIENTOS -----------*/
+#headerCo{
+    background:  rgb(61, 60, 60);
+    color: rgb(245, 241, 241);
+    line-height: 46px;
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+    height: 46px;
+    font-family: Lucida Sans Unicode;  
+}
+
+
+#boxT{
+    display: block;
+    height: 330px;
+}
+.boxA{
+    width: 45%;
+    display: block;
+    float: left;
+    margin: 5px;
+    justify-items: center;
+    margin-left: 30px;
+} 
+.ui-accordion .ui-accordion-content{
+    background: rgba(0,0,0,0.1);
+    color: black;
+    font-size: 20px;
+    font-family: Lucida Sans Unicode;
+    font-weight: bold;
+}
+.ui-accordion .ui-accordion-header
+{
+    background: rgba(0,0,0,0.2);
+    color: black;
+    font-family: Lucida Sans Unicode;
+}
+/*------------------ SECCION EDUCACION----------------*/
+#headerE{
+    background:  rgb(61, 60, 60);
+    color: rgb(245, 241, 241);
+    line-height: 46px;
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+    height: 46px;
+    font-family: Lucida Sans Unicode;  
+}
+.tabla{
+    border-top: 2px solid rgba(0,0,0,0.3);
+    height: 70px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+h3{
+    font-family: Lucida Sans Unicode;
+    font-weight: bold;
+}
+#tabla{
+    border-top: 2px solid rgba(0,0,0,0.3); 
+    height: 65px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+span{
+    display: block;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: Lucida Sans Unicode;
+    font-weight: bold;
+    opacity: 0.6;
+    font-size: 15px;
+}
+.certificados{
+    width: 50px;
+    cursor: pointer;
+    transition: 400ms;
+    margin: 5px;
+    margin-left: 20px;
+    
+}
+#borderbot{
+    border-bottom: 2px solid rgba(0,0,0,0.3);
+    margin: 10px;
+}
+/*---------------- SECCION CONTACTO -----------*/
+#headerC{
+    background:  rgb(61, 60, 60);
+    color: rgb(245, 241, 241);
+    line-height: 46px;
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+    height: 46px;
+    font-family: Lucida Sans Unicode;  
+}
+
+#contacto2{
+    display: inline;
+    float: right;
+    background: white;
+    width: 370px;
+    height: 250px;
+    margin-top: 20px;
+    margin-right: 70px;
+    font-family: Lucida Sans Unicode;
+    font-size: 18px;
+    text-align: left;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 4px;
+    padding-top: 10px;
+}
+#PIG{
+    height: 40px;
+    display: inline;
+}
+#logoW{
+    width: 35px;
+    position: relative;
+    top: 6px;
+    margin-right: 6px;
+}
+#logoIG{
+    width: 30px;
+    position: relative;
+    top: 6px;
+    margin-right: 6px;
+}
+#logoIN{
+    width: 40px;
+    position: relative;
+    top: 13px;
+    margin-right: 6px;
+}
+#logoGmail{
+    width: 30px;
+    position: relative;
+    top: 13px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: darkblue;
+}
+#contacto{
+    height: 400px;
+    width: 400px;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-items: left;
+    display: grid;
+   
+}
+#formulario{
+    width: 200px;
+    font-family: Lucida Sans Unicode;
+    display: grid;
+    justify-items: center;
+    
+}
+
+.inputs-form{
+    display: block;
+    height: 20px;
+    width: 300px;
+    border-radius: 1px;
+    border: 2px solid rgba(0,0,0,0.7);
+    margin-top: 5px;
+    outline: none;
+    color: black;
+    font-family: Lucida Sans Unicode;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    box-shadow: inset 0 0 3px;
+ 
+}
+textarea{
+    margin-bottom: 5px;
+    width: 300px;
+    border-radius: 2px;
+    border: 2px solid rgba(0,0,0,0.7);
+    outline: none;
+    color: black;
+    font-family: Lucida Sans Unicode;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    box-shadow: inset 0 0 3px;
+}
+
+::placeholder{
+    color: black;
+    font-family: Lucida Sans Unicode;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+#enviar{
+    height: 41px;
+    padding: 13px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: Lucida Sans Unicode;
+    margin-bottom: 5px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+/*---------------- SECCION FOOTER -----------*/
+footer{
+    font-family: sans-serif;
+    height: 50px;
+    background: rgba(0,0,0,0.7);
+    margin: 0px auto;
+    width: 75%;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: rgb(230, 230, 230);
+    margin-top: 20px;
+    line-height: 50px;
+
+}

@@ -1,0 +1,40 @@
+body{
+    background: url("../Imagenes/Fondo-azul-wallpaper.jpg");
+    background-attachment: fixed;
+}
+#GLOBAL{
+    background: rgb(241, 241, 241, 0.8);
+}
+#cv{
+    background: rgb(4, 132, 172,0.5);
+    color: rgb(0, 0, 0);
+}
+#menu li:hover{
+    background: rgb(54, 141, 255);
+}
+#boton{
+    background-color: rgb(10, 145, 223,0.4);
+}
+
+#boton:active{
+    background-color: rgb(4, 86, 110);
+}
+#python, #micro, #javascript{
+    opacity: 0.8;   
+}
+#contacto2, .inputs-form, #text-area{
+    background-color: rgba(255,255,255,0.5);
+}
+#enviar{
+    background-color: rgb(10, 145, 223,0.4);
+}
+#enviar:active{
+    background-color: rgb(4, 86, 110);
+}
+.ui-accordion .ui-accordion-header-active{
+    background: rgb(4, 132, 172);
+    color: black;
+    font-weight: bold;
+    border-color: black;
+    outline: none;
+}

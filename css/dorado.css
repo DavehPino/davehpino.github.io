@@ -1,0 +1,35 @@
+body{
+    background: url("../Imagenes/Fondo-dorado-wallpaper.jpg");
+    background-attachment: fixed;
+}
+#GLOBAL{
+    background: rgb(255, 255, 255,0.92);
+}
+#cv{
+    background: rgb(231, 162, 13);
+}
+#menu li:hover{
+    background: rgb(158, 116, 0);
+}
+#boton{
+    background-color: rgb(255, 195, 30);
+}
+
+#boton:active{
+    background-color: rgb(201, 147, 0);
+}
+
+#enviar{
+    background-color: rgb(255, 195, 30);
+}
+#enviar:active{
+    background-color: rgb(201, 147, 0);
+}
+.ui-accordion .ui-accordion-header-active
+{
+    background: rgb(201, 147, 0);
+    color: black;
+    font-weight: bold;
+    border-color: black;
+    outline: none;
+}

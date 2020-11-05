@@ -1,0 +1,44 @@
+body{
+    background: url("../Imagenes/Fondo-rojo.jpg");
+    background-attachment: fixed;
+}
+#GLOBAL{
+    background: rgb(255, 255, 255,0.8);
+}
+#cv{
+    background: rgb(153, 4, 4,0.8);
+    color: rgb(255, 255, 255);
+}
+#menu li:hover{
+    background: rgb(104, 0, 0);
+}
+#boton{
+    background-color: rgb(253, 47, 47);
+    color: white;
+}
+
+#boton:active{
+    background-color: rgb(155, 0, 0);
+}
+#python, #micro, #javascript{
+    opacity: 0.8;
+    
+}
+#contacto2, .inputs-form, #text-area{
+    background-color: rgba(255,255,255,0.7);
+}
+#enviar{
+    background-color: rgb(253, 47, 47);
+    color: white;
+}
+#enviar:active{
+    background-color: rgb(155, 0, 0);
+}
+.ui-accordion .ui-accordion-header-active
+{
+    background: rgb(155, 0, 0);
+    color: white;
+    font-weight: bold;
+    border-color: black;
+    outline: none;
+}
