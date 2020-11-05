@@ -195,6 +195,7 @@ if(localStorage.getItem('golden') == "dorado"){
         if(titule.text() != 'RESUME'){
             $('#language').text('Esp');
             $('#titule').text('RESUME');
+            $('#pdescarga').text('Download Resume ');
             $('#bheaderS').text('About me');
             $('#bheaderEx').text('PORTFOLIO');
             $('#bheaderCo').text('Knowledge');
