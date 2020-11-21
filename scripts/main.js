@@ -174,7 +174,7 @@ if(localStorage.getItem('golden') == "dorado"){
         })
 
 // Animacion Certificados
-     var certificados = [document.querySelector('#python'), document.querySelector('#micro'), document.querySelector('#javascript')]
+     var certificados = [document.querySelector('#python'), document.querySelector('#micro'), document.querySelector('#javascript'), document.querySelector('#bootstrap')]
     
     certificados.forEach((element)=>{
         element.addEventListener('click',function(){
@@ -246,6 +246,9 @@ if(localStorage.getItem('golden') == "dorado"){
             $('#cp').text('COURSE: PYTHON + HTML, CSS, Flask y MySQL');
             $('#cp2').text('Hours: 16 Year: 2020');
             $('#cp1').text('House of studies: UDEMY(Online)');
+            $('#btrap').text('COURSE: BOOTSTRAP, RESPONSIVE WEB SITES');
+            $('#btrap1').text('House of studies: CREHANA(Online)');
+            $('#btrap2').text('Hourse: 7 Year: 2020');
             $('#cj').text('COURSE: JavaScript + jQuery, Angular, NodeJS');
             $('#cj2').text('Hours: 31 Year: 2020');
             $('#cj1').text('House of studies: UDEMY(Online)');
