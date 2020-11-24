@@ -218,7 +218,7 @@ if(localStorage.getItem('golden') == "dorado"){
             $('#h').text('Level: Advanced');
             $('#c1').text('level: Intermediate');
             $('#c2').text('FlexBox: Basic');
-            $('#c3').text('CSS Grid: Basic');
+            $('#c3').text('Bootstrap: Intermediate');
             $('#o').text('Other programming languages');
             $('#o1').text('C++: Basic');
             $('#o2').text('Python: Basic');      
