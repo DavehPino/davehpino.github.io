@@ -18,6 +18,13 @@ body{
 #boton:active{
     background-color: rgb(201, 147, 0);
 }
+#botonEXP{
+    background-color: rgb(255, 195, 30);
+}
+
+#botonEXP:active{
+    background-color: rgb(201, 147, 0);
+}
 
 #enviar{
     background-color: rgb(255, 195, 30);
