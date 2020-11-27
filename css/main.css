@@ -283,6 +283,7 @@ body{
     display: inline;
     outline: none;
     font-weight: bold;
+    display: none;
 }
 /*---------------- SECCION CONOCIMIENTOS -----------*/
 #headerCo{
