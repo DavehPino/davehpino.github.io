@@ -77,9 +77,12 @@ boton.click(function(){
       captions: false,
       
     });
-
+    
+// Responsive design del portafolio
+    $('#botonEXP').click(function(){
+        window.open('resources/video1.mp4');
+    })
 // Cambiador de tema
-
 
 var color = $('#tema');
 if(localStorage.getItem('red') == "rojo"){
@@ -206,7 +209,8 @@ if(localStorage.getItem('golden') == "dorado"){
             $('#p').text("I'm 25 years old, I was born on Deptember 21th, 1994 in Caracas, Venezuela, and I am currently living in Buenos Aires, Argentina. As of now, I am working on my associate's degree (Systems analysis), although I also dedicate much of my free time to learn and study independently.");
             $('#boton').text('Show more information...');
             $('#headerEx').text('PORTFOLIO');
-            $('#prep').text('UNDER CONSTRUCTION');
+            $('#prep').text('Developed web site with BOOTSTRAP + JavaScript');
+            $('#botonEXP'.text('Show video');
             $('#headerCo').text('KNOWLEDGE');
             $('#tech').text('Programming skills');
             $('#j1').text('Level: Intermediate');
