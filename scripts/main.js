@@ -210,7 +210,7 @@ if(localStorage.getItem('golden') == "dorado"){
             $('#boton').text('Show more information...');
             $('#headerEx').text('PORTFOLIO');
             $('#prep').text('Developed web site with BOOTSTRAP + JavaScript');
-            $('#botonEXP'.text('Show video');
+            $('#botonEXP').text('Show video');
             $('#headerCo').text('KNOWLEDGE');
             $('#tech').text('Programming skills');
             $('#j1').text('Level: Intermediate');
