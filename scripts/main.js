@@ -22,7 +22,6 @@ bMenu.click(function(){
 
 // Boton para mostrar info de la pagina inicial
 
-console.log("jQuery cargado")
 var boton= $('#boton');
 var p = $('#p');
 var titulo = $('#titulo');
@@ -210,7 +209,7 @@ if(localStorage.getItem('golden') == "dorado"){
             $('#boton').text('Show more information...');
             $('#headerEx').text('PORTFOLIO');
             $('#prep').text('Developed web site with BOOTSTRAP + JavaScript');
-            $('#botonEXP').text('Watch Video');
+            $('#botonEXP').text('Watch video');
             $('#headerCo').text('KNOWLEDGE');
             $('#tech').text('Programming skills');
             $('#j1').text('Level: Intermediate');
