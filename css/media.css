@@ -68,6 +68,9 @@
     #Bsuperior ul li{
         display: block;
     }
+     video{
+        display: none;
+    }
 }
 @media screen and (max-width: 790px){
     #descarga{
