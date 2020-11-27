@@ -71,6 +71,8 @@
      video{
         display: none;
     }
+    #botonEXP{
+        display: block;
 }
 @media screen and (max-width: 790px){
     #descarga{
