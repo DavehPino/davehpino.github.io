@@ -249,7 +249,7 @@ if(localStorage.getItem('golden') == "dorado"){
             $('#cp').text('COURSE: PYTHON + HTML, CSS, Flask y MySQL');
             $('#cp2').text('Hours: 16 Year: 2020');
             $('#cp1').text('House of studies: UDEMY(Online)');
-            $('#btrap').text('COURSE: BOOTSTRAP, RESPONSIVE WEB SITES');
+            $('#btrap').text('COURSE: BOOTSTRAP, RESPONSIVE WEBSITES');
             $('#btrap1').text('House of studies: CREHANA(Online)');
             $('#btrap2').text('Hourse: 7 Year: 2020');
             $('#cj').text('COURSE: JavaScript + jQuery, Angular, NodeJS');
