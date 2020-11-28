@@ -208,7 +208,7 @@ if(localStorage.getItem('golden') == "dorado"){
             $('#p').text("I'm 25 years old, I was born on Deptember 21th, 1994 in Caracas, Venezuela, and I am currently living in Buenos Aires, Argentina. As of now, I am working on my associate's degree (Systems analysis), although I also dedicate much of my free time to learn and study independently.");
             $('#boton').text('Show more information...');
             $('#headerEx').text('PORTFOLIO');
-            $('#prep').text('Developed web site with BOOTSTRAP + JavaScript');
+            $('#prep').text('Website developed with BOOTSTRAP + JavaScript');
             $('#botonEXP').text('Watch video');
             $('#headerCo').text('KNOWLEDGE');
             $('#tech').text('Programming skills');
