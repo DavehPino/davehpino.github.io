@@ -20,12 +20,12 @@ body{
 #boton:active{
     background-color: rgb(155, 0, 0);
 }
-#botonEXP{
+.botonEXP{
     background-color: rgb(253, 47, 47);
     color: white;
 }
 
-#botonEXP:active{
+.botonEXP:active{
     background-color: rgb(155, 0, 0);
 }
 #python, #micro, #javascript{
