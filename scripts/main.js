@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
+setTimeout(function(){alert("For english content click the left side button 'Eng'")},1000);
 
-  $('')
 // ANIMACION MENU DEL RESPONSIVE DESIGN 
 var oMenu = $('.ocultar-menu');
 var bMenu = $('#menuicon');
