@@ -23,12 +23,11 @@ body{
 #Bcontenedor{
     width: 75%;
     text-align: right;
-    
 }
 #Bsuperior ul{
     line-height: 10px;
     list-style: none;
-    padding-right: 0px;
+    
 }
 #Bsuperior ul li{
     height: 10px;
@@ -106,6 +105,7 @@ body{
     outline: none;
     background: linear-gradient(to bottom right, #001F7E 25px,#ffffff, #D00C27 60px);
     font-size: 15px;
+
 }
 #language:hover{
     height: 60px;
@@ -258,7 +258,7 @@ body{
 }
 /*------------------ SECCION EXPERIENCIA ------------*/
 #headerEx{
-    font-size: 22px;
+    font-size: 24px;
     background:  rgb(61, 60, 60);
     color: rgb(245, 241, 241);
     line-height: 46px;
@@ -275,7 +275,12 @@ body{
     font-family: Lucida Sans Unicode;
     text-align: center;
 }
-#botonEXP{
+#prep2{
+    font-family: Lucida Sans Unicode;
+    text-align: center;
+    margin-top: 20px;
+}
+.botonEXP{
     padding: 5px;
     border: 1px solid rgba(0,0,0,0.4);
     box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
@@ -287,7 +292,7 @@ body{
 }
 /*---------------- SECCION CONOCIMIENTOS -----------*/
 #headerCo{
-    font-size: 22px;
+    font-size: 24px;
     background:  rgb(61, 60, 60);
     color: rgb(245, 241, 241);
     line-height: 46px;
@@ -327,13 +332,6 @@ body{
     color: black;
     font-family: Lucida Sans Unicode;
 }
-#tech{
-    font-family: Lucida Sans Unicode;
-}    
-
-#otech{
-    font-family: Lucida Sans Unicode;
-}    
 /*------------------ SECCION EDUCACION----------------*/
 #headerE{
     font-size: 22px;
