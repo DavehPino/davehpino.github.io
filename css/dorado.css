@@ -18,11 +18,11 @@ body{
 #boton:active{
     background-color: rgb(201, 147, 0);
 }
-#botonEXP{
+.botonEXP{
     background-color: rgb(255, 195, 30);
 }
 
-#botonEXP:active{
+.botonEXP:active{
     background-color: rgb(201, 147, 0);
 }
 
