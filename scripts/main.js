@@ -25,7 +25,6 @@ bMenu.click(function(){
 
 // Boton para mostrar info de la pagina inicial
 
-console.log("jQuery cargado")
 var boton= $('#boton');
 var p = $('#p');
 var titulo = $('#titulo');
