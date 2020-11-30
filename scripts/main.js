@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+
+  $('')
 // ANIMACION MENU DEL RESPONSIVE DESIGN 
 var oMenu = $('.ocultar-menu');
 var bMenu = $('#menuicon');
@@ -22,6 +25,7 @@ bMenu.click(function(){
 
 // Boton para mostrar info de la pagina inicial
 
+console.log("jQuery cargado")
 var boton= $('#boton');
 var p = $('#p');
 var titulo = $('#titulo');
@@ -44,17 +48,17 @@ boton.click(function(){
             
         }   
     }
-    else if(boton.text() == "Mostrar más información..." || boton.text() == "Ocultar información..."){
+    else if(boton.text() == "Mostrar más informacion..." || boton.text() == "Ocultar informacion..."){
             p.toggle('scale', 500);
         if(boton.html().length > 24){
-            boton.html("Ocultar información...");
+            boton.html("Ocultar informacion...");
             animador.animate({
                 scrollTop: titulo.offset().top
             }, 1); 
 
         }
         else if(boton.html().length < 24){
-            boton.html("Mostrar más información...");
+            boton.html("Mostrar más informacion...");
             animador.delay(200).animate({
                 scrollTop: titulo.offset().top
             }, 400); 
@@ -76,22 +80,30 @@ boton.click(function(){
       captions: false,
       
     });
-    
+
+
 // Responsive design del portafolio
     $('#botonEXP').click(function(){
         window.open('resources/video1.mp4');
     })
+    $('#botonEXP2').click(function(){
+        window.open('resources/video2.mp4');
+    })
 // Cambiador de tema
+
 
 var color = $('#tema');
 if(localStorage.getItem('red') == "rojo"){
     color.attr("href","css/rojo.css");
+    
 }
 if(localStorage.getItem('blue') == "azul"){
     color.attr("href","css/azul.css");
+  
 }
 if(localStorage.getItem('golden') == "dorado"){
     color.attr("href","css/dorado.css");
+    
 }
     
     $('#R').click(function(){
@@ -152,6 +164,7 @@ if(localStorage.getItem('golden') == "dorado"){
         active: false,  
         collapsible: true,
         heightStyle: "content",
+     
         
     });
     var acordionA = $('.click');
@@ -176,10 +189,9 @@ if(localStorage.getItem('golden') == "dorado"){
         })
 
 // Animacion Certificados
-     var certificados = [document.querySelector('#python'), document.querySelector('#micro'), document.querySelector('#javascript'), document.querySelector('#bootstrap')]
-    
+     var certificados = [document.querySelector('#python'), document.querySelector('#micro'), document.querySelector('#javascript'), document.querySelector('#bootstrap')];
     certificados.forEach((element)=>{
-        element.addEventListener('click',function(){
+        element.addEventListener('click',(e)=>{
         
             if(element.style.width == "750px"){
                 element.style.width = "50px";                
@@ -190,6 +202,7 @@ if(localStorage.getItem('golden') == "dorado"){
         })
     })
    // ------------------ TRADUCTOR ------------------
+   
     var language = $('#language');
     var titule = $('#titule');
     language.click(function(){
@@ -205,11 +218,12 @@ if(localStorage.getItem('golden') == "dorado"){
             $('#bheaderC').text('Contact');
             $('#titulo').text('A bit about me');
             $('#p2').text("Hi, my name is David Pino, I am a passionated tech guy, specifically in computing technology. I'm a front-end web developer and I'm looking forward to be part of new projects in which I could develop my skills as a programmer and to gain much needed experience in the field. If you find yourself interested in working with me, feel free to get in touch with me.");
-            $('#p').text("I'm 25 years old, I was born on December 21th, 1994 in Caracas, Venezuela, and I'm currently living in Buenos Aires, Argentina. As of now, I'm working on my associate's degree (Systems analysis), although I also dedicate much of my free time to learn and study independently.");
+            $('#p').text("I'm 25 years old, I was born on December 21th, 1994 in Caracas, Venezuela, and today I live in Buenos Aires, Argentina, I'm currently working on my associate's degree (Systems analysis), although I also dedicate much of my free time to learn and study independently");
             $('#boton').text('Show more information...');
             $('#headerEx').text('PORTFOLIO');
             $('#prep').text('Website developed with BOOTSTRAP + JavaScript');
-            $('#botonEXP').text('Watch video');
+            $('#prep2').text('Tic-tac-toe game developed with JavaScript');
+            $('.botonEXP').text('Watch video');
             $('#headerCo').text('KNOWLEDGE');
             $('#tech').text('Programming skills');
             $('#j1').text('Level: Intermediate');
@@ -221,7 +235,7 @@ if(localStorage.getItem('golden') == "dorado"){
             $('#h').text('Level: Advanced');
             $('#c1').text('level: Intermediate');
             $('#c2').text('FlexBox: Basic');
-            $('#c3').text('Bootstrap: Intermediate');
+            $('#c3').text('CSS Grid: Basic');
             $('#o').text('Other programming languages');
             $('#o1').text('C++: Basic');
             $('#o2').text('Python: Basic');      
@@ -251,7 +265,7 @@ if(localStorage.getItem('golden') == "dorado"){
             $('#cp1').text('House of studies: UDEMY(Online)');
             $('#btrap').text('COURSE: BOOTSTRAP, RESPONSIVE WEBSITES');
             $('#btrap1').text('House of studies: CREHANA(Online)');
-            $('#btrap2').text('Hours: 7 Year: 2020');
+            $('#btrap2').text('Hourse: 7 Year: 2020');
             $('#cj').text('COURSE: JavaScript + jQuery, Angular, NodeJS');
             $('#cj2').text('Hours: 31 Year: 2020');
             $('#cj1').text('House of studies: UDEMY(Online)');
@@ -270,5 +284,5 @@ if(localStorage.getItem('golden') == "dorado"){
             location.reload();
         }
     })
-    
+
 });
