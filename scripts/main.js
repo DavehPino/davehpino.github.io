@@ -188,7 +188,7 @@ if(localStorage.getItem('golden') == "dorado"){
         })
 
 // Animacion Certificados
-     var certificados = [document.querySelector('#python'), document.querySelector('#micro'), document.querySelector('#javascript'), document.querySelector('#bootstrap')];
+     var certificados = [document.querySelector('#sqlc'), document.querySelector('#python'), document.querySelector('#micro'), document.querySelector('#javascript'), document.querySelector('#bootstrap')];
     certificados.forEach((element)=>{
         element.addEventListener('click',(e)=>{
         
@@ -268,6 +268,9 @@ if(localStorage.getItem('golden') == "dorado"){
             $('#cj').text('COURSE: JavaScript + jQuery, Angular, NodeJS');
             $('#cj2').text('Hours: 31 Year: 2020');
             $('#cj1').text('House of studies: UDEMY(Online)');
+            $('#sql').text('COURSE: SQL with exercises');
+            $('#sql1').text('House of studies: UDEMY(Online)');
+            $('#sql2').text('Hourse: 1.5 Year: 2020');
             $('#ct').text('COURSE:  PC TECHNICIAN');
             $('#ct2').text('Hours: 60 Year: 2018');
             $('#ct1').text('House of studies: ITELCA(Venezuela)');
