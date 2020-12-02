@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+
 setTimeout(function(){alert("For english content click the left side button 'Eng'")},1000);
 
 // ANIMACION MENU DEL RESPONSIVE DESIGN 
@@ -233,8 +234,8 @@ if(localStorage.getItem('golden') == "dorado"){
             $('#t2').text('Angular: Basic');
             $('#h').text('Level: Advanced');
             $('#c1').text('level: Intermediate');
-            $('#c2').text('FlexBox: Basic');
-            $('#c3').text('CSS Grid: Basic');
+            $('#c2').text('Bootstrap: Intermediate');
+            $('#c3').text('FlexBox: Basic');
             $('#o').text('Other programming languages');
             $('#o1').text('C++: Basic');
             $('#o2').text('Python: Basic');      
