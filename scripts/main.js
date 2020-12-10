@@ -228,12 +228,10 @@ if(localStorage.getItem('golden') == "dorado"){
             $('#tech').text('Programming skills');
             $('#j1').text('Level: Intermediate');
             $('#j2').text('jQuery: Intermediate');
-            $('#j3').text('jQuery UI: Intermediate');
             $('#j4').text('NodeJS: Basic');
             $('#t1').text('Level: Basic');
-            $('#t2').text('Angular: Basic');
             $('#h').text('Level: Advanced');
-            $('#c1').text('level: Intermediate');
+            $('#c1').text('Level: Intermediate');
             $('#c2').text('Bootstrap: Intermediate');
             $('#c3').text('FlexBox: Basic');
             $('#o').text('Other programming languages');
